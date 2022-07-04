@@ -9,3 +9,15 @@ check reference information is good inside mycost function x from 0~-3 y from 0~
  
  
 <draft>
+pranav's pointer format
+
+void myfunction(double *variable)
+{
+  *variable = 2;
+}
+
+int main()
+{
+  double variable = 1;
+  myfunction(&variable);
+}
