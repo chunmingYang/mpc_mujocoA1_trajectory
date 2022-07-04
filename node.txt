@@ -1,0 +1,11 @@
+<debug>
+check reference information is good inside mycost function x from 0~-3 y from 0~0.7
+-> xref yref thetaref cant go inside the mycost function maybe because "nlopt_set_min_objective(opt, mycost, NULL)" restriction
+  -> cant use global since xytheta reference come from my_controller not from the the most outside, then how about use pointer (nlopt official example datatype pointer / pranav's pointer format) let me try pranav's pointer format first
+  
+  
+ 
+ 
+ 
+ 
+<draft>
